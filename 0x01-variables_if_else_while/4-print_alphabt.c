@@ -6,10 +6,10 @@
  */
 int main (void)
 {
-	char lowercase = 'n';
+	char n;
 	for (n = 'a'; n <= 'z'; n++)
 	{
-		if(n != 9 && n != e)
+		if(n != q && n != e)
 	{
 		putchar(n);
 	}
