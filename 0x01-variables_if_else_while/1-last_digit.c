@@ -20,16 +20,15 @@ int main(void)
 	/* to check the numbers sighn */
 	if (x > 5)
 	{
-		printf("is %d greater than 5\n", x);
+		printf("is %d and is greater than 5\n", x);
 	}
 	else if (x == 0)
        	{
-		 printf("is %d equal to 0\n", x);
+		 printf("is %d and is 0\n", x);
        	}
        	else
 	{
-		 printf("is %d less than 6 and not 0\n", x);
+		 printf("is %d and is less than 6 and not 0\n", x);
 	}
-
-	 return (0);
+	return (0);
 }
