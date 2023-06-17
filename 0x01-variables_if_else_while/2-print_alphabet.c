@@ -5,11 +5,15 @@
  * discription-  I sometimes suffer from insomnia.
  * Return: Always 0 (success)
  */
-int main(){
+int main(void)
+
+{
 	char n;
 
 	/* to iterate our code until we get all alphabets */
-	for (n = 'a'; n <= 'z'; n++){
+	for (n = 'a'; n <= 'z'; n++)
+		
+	{
 		putchar(n);
 	}
 	
