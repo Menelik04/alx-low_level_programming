@@ -13,10 +13,7 @@ int main(){
 		putchar(n);
 	}
 	
-	putchar('\n') /* to get a new line followed */
+	putchar('\n'); /* to get a new line followed */
 
 		return (0);
 }
-
-
-
