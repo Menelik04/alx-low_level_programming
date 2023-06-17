@@ -4,7 +4,7 @@
  * discription- can only use the putchar function.
  * Return: Always 0 (success)
  */
-int main (void)
+int main(void)
 {
 	int i;
 
