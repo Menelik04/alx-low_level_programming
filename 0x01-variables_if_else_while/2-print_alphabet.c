@@ -12,11 +12,10 @@ int main(void)
 
 	/* to iterate our code until we get all alphabets */
 	for (n = 'a'; n <= 'z'; n++)
-		
+	
 	{
 		putchar(n);
 	}
-	
 	putchar('\n'); /* to get a new line followed */
 
 		return (0);
