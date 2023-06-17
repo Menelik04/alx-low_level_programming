@@ -10,7 +10,7 @@ int main(void)
 	char upercase = 'A';
 	
 	/* to print a lowercase */
-	while (lowecase <= 'z')
+	while (lowercase <= 'z')
 
 	{
 		putchar(lowercase);
