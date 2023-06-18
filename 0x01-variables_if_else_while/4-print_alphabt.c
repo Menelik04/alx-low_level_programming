@@ -6,17 +6,17 @@
  */
 int main(void)
 {
-	char lowercase = 'a';
+	char n = 'a';
 
 	/* to iterate letters until we get z */
-	while (lowercase <= 'z');
+	for (n = 'a'; n <= 'z'; n++);
 	{
-		/* to escape the letter q and e */
-		if (lowercase != 'q' && lowercase != 'e')
+		if (n == 'e' && n == 'q')
 		{
-			putchar(lowercase);
+			continue;
 		}
-		lowercase++;
+		putchar('0' + n);
+		putchar(' ');
 	}
 	putchar('\n');/* to have a new line */
 	
