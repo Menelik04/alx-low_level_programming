@@ -1,10 +1,5 @@
-/**
- * main - a program that prints _putchar, followed by a new line.
- * discription - using putchar only.
- * Return - Always 0 (success).
- */
-#include <unistd.h>
 #include <main.h>
+#include <unistd.h>
 /** _putchar - A function.
  * write - writing data to a file descriptor.
  * 1 - standard output.
