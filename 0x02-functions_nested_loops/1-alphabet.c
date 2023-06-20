@@ -9,14 +9,8 @@ void print_alphabet(void)
 {
 	char l;
 	/* to print alphabets in lowercase */
-	for (l = 'a'; c <= 'z'; c++)
-	{
-		putchar(c);
-	}
-	putchar('\n');
-}
-int main()
-{
-	void print_alphabet(void);
-	return (0);
+	for (l = 'a'; l <= 'z'; l++)
+		_putchar(l);
+
+	_putchar('\n');
 }

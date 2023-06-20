@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * main - function that prints 10 times the alphabet, in lowercase.
  * discription - using putchar only.
@@ -13,7 +12,6 @@ void print_alphabet_x10(void)
 	while (x < 10)
 	{
 		y = 'a';
-		/* to print alphabets in lowercase */
 		while (y <= 'z');
 		{
 			_putchar(y);

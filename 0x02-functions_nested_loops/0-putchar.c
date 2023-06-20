@@ -4,11 +4,8 @@
  * discription - using putchar only.
  * Return - 0.
  */
-int main(void)
+int main()
 {
-	/* use 9 putchars to print every single words 
-	 * _putchar with new line.
-	 */
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
