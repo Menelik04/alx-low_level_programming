@@ -4,6 +4,7 @@
  * Return - Always 0 (success).
  */
 #include <unistd.h>
+#include <main.h>
 /** _putchar - A function.
  * write - writing data to a file descriptor.
  * 1 - standard output.
