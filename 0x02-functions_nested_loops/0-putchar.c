@@ -4,7 +4,8 @@
  * discription - using putchar only.
  * Return - 0.
  */
-int main()
+/* the return type of main is void */
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');

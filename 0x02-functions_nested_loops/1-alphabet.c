@@ -5,6 +5,7 @@
  * discription - using putchar twice.
  * Return - Always 0 (success).
  */
+/* a function which print alphabets */
 void print_alphabet(void)
 {
 	char l;
