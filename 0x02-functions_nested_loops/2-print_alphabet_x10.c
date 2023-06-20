@@ -8,22 +8,18 @@
 void print_alphabet_x10(void)
 {
 	int x = 0;
+	char y;
 	/* to get 10 spaces */
 	while (x < 10)
 	{
-		char y = 'a';
+		y = 'a';
 		/* to print alphabets in lowercase */
 		while (y <= 'z');
 		{
-			putchar(y);
+			_putchar(y);
 			y++;
 		}
-		putchar('\n');
+		_putchar('\n');
 		x++;
 	}
-}
-int main()
-{
-	print_alphabet_x10(void);
-	retun (0);
 }

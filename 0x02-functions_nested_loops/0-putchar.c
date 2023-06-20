@@ -2,7 +2,7 @@
 /**
  * main - a program that prints _putchar, followed by a new line.
  * discription - using putchar only.
- * Return - Always 0 (success).
+ * Return - 0.
  */
 int main(void)
 {
