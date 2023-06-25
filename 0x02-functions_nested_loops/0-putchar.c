@@ -2,10 +2,10 @@
 /**
  * main - a program that prints _putchar, followed by a new line.
  * discription - using putchar only.
- * Return - 0.
+ * Return - Always 0 (success)
  */
-/* the return type of main is void */
 int main(void)
+/* the return type of main is void */ 
 {
 	_putchar('_');
 	_putchar('p');
