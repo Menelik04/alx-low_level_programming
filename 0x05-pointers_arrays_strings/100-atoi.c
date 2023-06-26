@@ -32,7 +32,7 @@ int _atoi(char *s)
 			n = n * 10 + digit;
 			f = 0;
 		}
-		i++
+		i++;
 	}
 	if (f == 0)
 		return (0);

@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * puts_half -  a function that prints half of a string, 
- * @str: input
- * Return: haif of input
+ *puts_half -  a function that prints half of a string.
+ *
+ *Return: haif of input
  */
 void puts_half(char *str)
 {

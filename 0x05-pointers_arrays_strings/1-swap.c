@@ -4,6 +4,7 @@
  * @a: integer to swap
  * 2b: integer to swap
  */
+/* we have 2 parametrs to swap */
 void swap_int(int *a, int *b)
 {
 	int n;
